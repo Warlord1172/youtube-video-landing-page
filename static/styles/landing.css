@@ -1,0 +1,132 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    filter: blur(8px);
+}
+
+
+#content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 15%;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #000;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+
+h1:hover {
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px auto;
+}
+
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	align-self: flex-end;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+
+h1, h2, p, .button {
+    text-shadow: 0 0 10px #000;
+    transition: all 0.2s linear;
+}
+
+h1:hover, h2:hover, p:hover, .button:hover {
+    color:#000;
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+}
+
+.section-box {
+    
+    color: white;
+    padding: 20px;
+    margin: 20px auto; /* centered horizontally */
+    max-width: 600px; /* max width of the box */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* glow effect around the box */
+    transition: all 0.2s linear;
+}
+
+.button-box{
+    padding: 20px;
+    margin: 20px auto; /* centered horizontally */
+    text-align: center;
+}
+.section-box:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.7); /* glow effect on hover */
+}
+
+.social-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    background: #fff;
+    color: black;
+}
+
+
+.end_text{
+    text-align: center;
+}
